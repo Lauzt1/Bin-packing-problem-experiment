@@ -52,10 +52,10 @@ def display_table(results):
     print(table)
 
 # Example usage
-files = ["100_average.txt", "100_best.txt", "100_worst.txt", 
-         "1000_average.txt", "1000_best.txt", "1000_worst.txt", 
+files = ["1000_average.txt", "1000_best.txt", "1000_worst.txt", 
          "5000_average.txt", "5000_best.txt", "5000_worst.txt", 
-         "10000_average.txt", "10000_best.txt", "10000_worst.txt"]
+         "10000_average.txt", "10000_best.txt", "10000_worst.txt",
+         "30000_average.txt", "30000_best.txt", "30000_worst.txt"]
 
 bin_capacity = 10  # Assuming bin capacity is 10
 
