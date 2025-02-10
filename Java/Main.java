@@ -77,13 +77,13 @@ public class Main {
                     long startFF = System.nanoTime();
                     int ffResult = FF.firstFit(items, BIN_CAPACITY);
                     long endFF = System.nanoTime();
-                    double durationFF = (endFF - startFF) / 1e9; // Convert nanoseconds to seconds.
+                    double durationFF = (endFF - startFF) / 1e6; // Convert nanoseconds to milliseconds.
                     
                     // Run the First Fit Decreasing (FFD) algorithm and measure the execution time.
                     long startFFD = System.nanoTime();
                     int ffdResult = FFD.firstFitDecreasing(items, BIN_CAPACITY);
                     long endFFD = System.nanoTime();
-                    double durationFFD = (endFFD - startFFD) / 1e9; // Convert nanoseconds to seconds.
+                    double durationFFD = (endFFD - startFFD) / 1e6; // Convert nanoseconds to milliseconds.
                     
                     // Format the measured times and bin counts.
                     ffTime = String.format("%.3f", durationFF);
