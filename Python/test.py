@@ -124,7 +124,7 @@ def main():
             filename = f"{size}_{case}.txt"
             result = process_file(filename, BIN_CAPACITY)
             # We use the size (as a string) as the first column instead of the full filename.
-            result_row = [str(size), result[1], result[2], result[3], result[4]]
+            result_row = [filename, result[1], result[2], result[3], result[4]]
             csv_block += ",".join(result_row) + "\n"
             all_results.append(result_row)
         
