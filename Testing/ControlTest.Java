@@ -80,7 +80,7 @@ public class ControlTest {
     
     public static void main(String[] args) {
         // Sample input: 10 items with sizes in the range 1-10.
-        int[] items = {3, 8, 2, 5, 7, 1, 9, 4, 6, 2};
+        int[] items = {3, 8, 1, 9, 2, 5, 7, 4, 6, 2};
         int binCapacity = 10;
         
         System.out.println("=== First Fit (FF) Packing ===");

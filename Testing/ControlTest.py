@@ -61,8 +61,7 @@ def print_bins(bins, bin_capacity):
         print(f"Bin {i}: {bin} (total = {total})")
 
 if __name__ == "__main__":
-    # Sample input: 10 items with sizes in [1, 10].
-    items = [3, 8, 2, 5, 7, 1, 9, 4, 6, 2]
+    items = [3, 8, 1, 9, 2, 5, 7, 4, 6, 2]
     bin_capacity = 10
 
     print("=== First Fit (FF) Packing ===")
